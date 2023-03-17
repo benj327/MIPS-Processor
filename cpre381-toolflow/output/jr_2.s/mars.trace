@@ -1,0 +1,73 @@
+[inst #1] jal 4194312
+Register Write to Reg: 0x1F Val: 0x00400004
+[inst #2] addi $1,$0,1
+Register Write to Reg: 0x01 Val: 0x00000001
+[inst #3] addi $1,$0,0
+Register Write to Reg: 0x01 Val: 0x00000000
+[inst #4] addi $2,$0,1
+Register Write to Reg: 0x02 Val: 0x00000001
+[inst #5] addi $2,$0,0
+Register Write to Reg: 0x02 Val: 0x00000000
+[inst #6] addi $3,$0,1
+Register Write to Reg: 0x03 Val: 0x00000001
+[inst #7] addi $3,$0,0
+Register Write to Reg: 0x03 Val: 0x00000000
+[inst #8] addi $4,$0,1
+Register Write to Reg: 0x04 Val: 0x00000001
+[inst #9] addi $4,$0,0
+Register Write to Reg: 0x04 Val: 0x00000000
+[inst #10] addi $5,$0,1
+Register Write to Reg: 0x05 Val: 0x00000001
+[inst #11] addi $5,$0,0
+Register Write to Reg: 0x05 Val: 0x00000000
+[inst #12] addi $6,$0,1
+Register Write to Reg: 0x06 Val: 0x00000001
+[inst #13] addi $6,$0,0
+Register Write to Reg: 0x06 Val: 0x00000000
+[inst #14] addi $7,$0,1
+Register Write to Reg: 0x07 Val: 0x00000001
+[inst #15] addi $7,$0,0
+Register Write to Reg: 0x07 Val: 0x00000000
+[inst #16] addi $8,$0,1
+Register Write to Reg: 0x08 Val: 0x00000001
+[inst #17] addi $8,$0,0
+Register Write to Reg: 0x08 Val: 0x00000000
+[inst #18] addi $9,$0,1
+Register Write to Reg: 0x09 Val: 0x00000001
+[inst #19] addi $9,$0,0
+Register Write to Reg: 0x09 Val: 0x00000000
+[inst #20] addi $10,$0,1
+Register Write to Reg: 0x0A Val: 0x00000001
+[inst #21] addi $10,$0,0
+Register Write to Reg: 0x0A Val: 0x00000000
+[inst #22] addi $11,$0,1
+Register Write to Reg: 0x0B Val: 0x00000001
+[inst #23] addi $11,$0,0
+Register Write to Reg: 0x0B Val: 0x00000000
+[inst #24] addi $12,$0,1
+Register Write to Reg: 0x0C Val: 0x00000001
+[inst #25] addi $12,$0,0
+Register Write to Reg: 0x0C Val: 0x00000000
+[inst #26] addi $13,$0,1
+Register Write to Reg: 0x0D Val: 0x00000001
+[inst #27] addi $13,$0,0
+Register Write to Reg: 0x0D Val: 0x00000000
+[inst #28] addi $14,$0,1
+Register Write to Reg: 0x0E Val: 0x00000001
+[inst #29] addi $14,$0,0
+Register Write to Reg: 0x0E Val: 0x00000000
+[inst #30] addi $15,$0,1
+Register Write to Reg: 0x0F Val: 0x00000001
+[inst #31] addi $15,$0,0
+Register Write to Reg: 0x0F Val: 0x00000000
+[inst #32] addi $16,$0,1
+Register Write to Reg: 0x10 Val: 0x00000001
+[inst #33] addi $16,$0,0
+Register Write to Reg: 0x10 Val: 0x00000000
+[inst #34] addi $17,$0,1
+Register Write to Reg: 0x11 Val: 0x00000001
+[inst #35] addi $17,$0,0
+Register Write to Reg: 0x11 Val: 0x00000000
+[inst #36] jr $31
+[inst #37] halt 
+

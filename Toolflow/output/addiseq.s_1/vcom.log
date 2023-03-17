@@ -1,0 +1,139 @@
+QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+Start time: 13:42:37 on Dec 11,2022
+vcom -2008 -work internal/ModelSimContainer/work proj/src/MIPS_types.vhd internal/testpy/tb.vhd proj/src/MIPS_types.vhd proj/src/TopLevel/MIPS_Processor.vhd proj/src/TopLevel/mem.vhd proj/src/TopLevel/Lower/mux32bit4t1.vhd proj/src/TopLevel/Lower/Multiplier.vhd proj/src/TopLevel/Lower/tb_aluLogical.vhd proj/src/TopLevel/Lower/Decoder5t32.vhd proj/src/TopLevel/Lower/mipsDatapath.vhd proj/src/TopLevel/Lower/AddSub.vhd proj/src/TopLevel/Lower/invg.vhd proj/src/TopLevel/Lower/mux32t1.vhd proj/src/TopLevel/Lower/mux2t1.vhd proj/src/TopLevel/Lower/aluLogical.vhd proj/src/TopLevel/Lower/xorg2.vhd proj/src/TopLevel/Lower/Reg.vhd proj/src/TopLevel/Lower/mux2t1_df.vhd proj/src/TopLevel/Lower/mux2t1_N.vhd proj/src/TopLevel/Lower/id_exR.vhd proj/src/TopLevel/Lower/sltU.vhd proj/src/TopLevel/Lower/NRegO.vhd proj/src/TopLevel/Lower/regFile.vhd proj/src/TopLevel/Lower/rightBarrelShifter.vhd proj/src/TopLevel/Lower/NRegF.vhd proj/src/TopLevel/Lower/AdderS.vhd proj/src/TopLevel/Lower/shiftL2.vhd proj/src/TopLevel/Lower/NRegT.vhd proj/src/TopLevel/Lower/mux2darr.vhd proj/src/TopLevel/Lower/ex_memR.vhd proj/src/TopLevel/Lower/control.vhd proj/src/TopLevel/Lower/ComparatorUnit.vhd proj/src/TopLevel/Lower/NBitAdder.vhd proj/src/TopLevel/Lower/mux6bit4t1.vhd proj/src/TopLevel/Lower/tb_ALU.vhd proj/src/TopLevel/Lower/NReg.vhd proj/src/TopLevel/Lower/tb_shift2L.vhd proj/src/TopLevel/Lower/Adder.vhd proj/src/TopLevel/Lower/mem_wb.vhd proj/src/TopLevel/Lower/RegLd.vhd proj/src/TopLevel/Lower/mipsDatapath2.vhd proj/src/TopLevel/Lower/OnesComp.vhd proj/src/TopLevel/Lower/org2.vhd proj/src/TopLevel/Lower/dffg.vhd proj/src/TopLevel/Lower/extender.vhd proj/src/TopLevel/Lower/andg2.vhd proj/src/TopLevel/Lower/tb_mipsDatapath.vhd proj/src/TopLevel/Lower/tb_control.vhd proj/src/TopLevel/Lower/tb_rightBarrelShifter.vhd proj/src/TopLevel/Lower/tb_leftBarrelShifter.vhd proj/src/TopLevel/Lower/ALU.vhd proj/src/TopLevel/Lower/if_idR.vhd proj/src/TopLevel/Lower/leftBarrelShifter.vhd proj/src/TopLevel/Lower/Fetch Logic/mux2t1_N.vhd proj/src/TopLevel/Lower/Fetch Logic/PC_reg.vhd proj/src/TopLevel/Lower/Fetch Logic/AddSub.vhd proj/src/TopLevel/Lower/Fetch Logic/Fetch_log.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling package MIPS_types
+-- Compiling package body MIPS_types
+-- Loading package MIPS_types
+-- Loading package std_logic_textio
+-- Loading package ENV
+-- Compiling entity tb
+-- Compiling architecture mixed of tb
+** Warning: proj/src/MIPS_types.vhd(15): (vcom-1615) Existing package 'MIPS_types' at line 15 will be overwritten.
+-- Compiling package MIPS_types
+** Warning: proj/src/MIPS_types.vhd(29): (vcom-1615) Existing package body 'MIPS_types(body)' at line 29 will be overwritten.
+-- Compiling package body MIPS_types
+-- Loading package MIPS_types
+-- Loading package MIPS_types
+-- Compiling entity MIPS_Processor
+-- Compiling architecture structure of MIPS_Processor
+-- Loading package NUMERIC_STD
+-- Compiling entity mem
+-- Compiling architecture rtl of mem
+-- Compiling entity mux32bit4t1
+-- Compiling architecture structure of mux32bit4t1
+-- Compiling entity Multiplier
+-- Compiling architecture behavior of Multiplier
+-- Compiling entity tb_aluLogical
+-- Compiling architecture mixed of tb_aluLogical
+-- Compiling entity Decoder5t32
+-- Compiling architecture dataflow of Decoder5t32
+-- Compiling entity mipsDatapath
+-- Compiling architecture structural of mipsDatapath
+** Warning: proj/src/TopLevel/Lower/AddSub.vhd(19): (vcom-1615) Existing entity 'AddSub' at /home/bcarlso5/Desktop/Folder Again/project-1/Toolflow/proj/src/TopLevel/Lower/Fetch Logic/AddSub.vhd(19) will be overwritten.
+-- Compiling entity AddSub
+** Warning: proj/src/TopLevel/Lower/AddSub.vhd(29): (vcom-1615) Existing architecture 'AddSub(structural)' at /home/bcarlso5/Desktop/Folder Again/project-1/Toolflow/proj/src/TopLevel/Lower/Fetch Logic/AddSub.vhd(29) will be overwritten.
+-- Compiling architecture structural of AddSub
+-- Compiling entity invg
+-- Compiling architecture dataflow of invg
+-- Loading package mux2darr
+-- Compiling entity mux32t1
+-- Compiling architecture dataflow of mux32t1
+-- Compiling entity mux2t1
+-- Compiling architecture structure of mux2t1
+-- Compiling entity aluLogical
+-- Compiling architecture structure of aluLogical
+-- Compiling entity xorg2
+-- Compiling architecture dataflow of xorg2
+-- Compiling entity Reg
+-- Compiling architecture behavior of Reg
+-- Compiling entity mux2t1_df
+-- Compiling architecture dataflow of mux2t1_df
+** Warning: proj/src/TopLevel/Lower/mux2t1_N.vhd(21): (vcom-1615) Existing entity 'mux2t1_N' at /home/bcarlso5/Desktop/Folder Again/project-1/Toolflow/proj/src/TopLevel/Lower/Fetch Logic/mux2t1_N.vhd(21) will be overwritten.
+-- Compiling entity mux2t1_N
+** Warning: proj/src/TopLevel/Lower/mux2t1_N.vhd(30): (vcom-1615) Existing architecture 'mux2t1_N(structural)' at /home/bcarlso5/Desktop/Folder Again/project-1/Toolflow/proj/src/TopLevel/Lower/Fetch Logic/mux2t1_N.vhd(30) will be overwritten.
+-- Compiling architecture structural of mux2t1_N
+-- Compiling entity id_exR
+-- Compiling architecture structure of id_exR
+-- Compiling entity sltU
+-- Compiling architecture structure of sltU
+-- Compiling entity NRegO
+-- Compiling architecture structural of NRegO
+-- Compiling entity regFile
+-- Compiling architecture structure of regFile
+-- Compiling entity rightBarrelShifter
+-- Compiling architecture structural of rightBarrelShifter
+-- Compiling entity NRegF
+-- Compiling architecture structural of NRegF
+-- Compiling entity AdderS
+-- Compiling architecture structural of AdderS
+-- Compiling entity shiftL2
+-- Compiling architecture structural of shiftL2
+-- Compiling entity NRegT
+-- Compiling architecture structural of NRegT
+-- Compiling package mux2darr
+-- Compiling entity ex_memR
+-- Compiling architecture structure of ex_memR
+-- Compiling entity control
+-- Compiling architecture structure of control
+-- Compiling entity ComparatorUnit
+-- Compiling architecture dataflow of ComparatorUnit
+-- Compiling entity NBitAdder
+-- Compiling architecture structural of NBitAdder
+-- Compiling entity mux6bit4t1
+-- Compiling architecture structure of mux6bit4t1
+-- Compiling entity tb_ALU
+-- Compiling architecture structure of tb_ALU
+-- Compiling entity NReg
+-- Compiling architecture structural of NReg
+-- Compiling entity tb_shiftL2
+-- Compiling architecture mixed of tb_shiftL2
+-- Compiling entity Adder
+-- Compiling architecture behavior of Adder
+-- Compiling entity mem_wb
+-- Compiling architecture structure of mem_wb
+-- Compiling entity RegLd
+-- Compiling architecture behavior of RegLd
+-- Compiling entity mipsDatapath2
+-- Compiling architecture structural of mipsDatapath2
+-- Compiling entity OnesComp
+-- Compiling architecture structural of OnesComp
+-- Compiling entity org2
+-- Compiling architecture dataflow of org2
+-- Compiling entity dffg
+-- Compiling architecture mixed of dffg
+-- Compiling entity extender
+-- Compiling architecture behavior of extender
+-- Compiling entity andg2
+-- Compiling architecture dataflow of andg2
+-- Loading package mux2darr
+-- Compiling entity tb_mipsDatapath
+-- Compiling architecture behavior of tb_mipsDatapath
+-- Compiling entity tb_control
+-- Compiling architecture mixed of tb_control
+-- Compiling entity tb_rightBarrelShifter
+-- Compiling architecture mixed of tb_rightBarrelShifter
+-- Compiling entity tb_leftBarrelShifter
+-- Compiling architecture mixed of tb_leftBarrelShifter
+-- Compiling entity ALU
+-- Compiling architecture structure of ALU
+-- Compiling entity if_idR
+-- Compiling architecture structure of if_idR
+-- Compiling entity leftBarrelShifter
+-- Compiling architecture structural of leftBarrelShifter
+** Warning: proj/src/TopLevel/Lower/Fetch Logic/mux2t1_N.vhd(21): (vcom-1615) Existing entity 'mux2t1_N' at proj/src/TopLevel/Lower/mux2t1_N.vhd(21) will be overwritten.
+-- Compiling entity mux2t1_N
+** Warning: proj/src/TopLevel/Lower/Fetch Logic/mux2t1_N.vhd(30): (vcom-1615) Existing architecture 'mux2t1_N(structural)' at proj/src/TopLevel/Lower/mux2t1_N.vhd(30) will be overwritten.
+-- Compiling architecture structural of mux2t1_N
+-- Compiling entity PC_reg
+-- Compiling architecture structural of PC_reg
+** Warning: proj/src/TopLevel/Lower/Fetch Logic/AddSub.vhd(19): (vcom-1615) Existing entity 'AddSub' at proj/src/TopLevel/Lower/AddSub.vhd(19) will be overwritten.
+-- Compiling entity AddSub
+** Warning: proj/src/TopLevel/Lower/Fetch Logic/AddSub.vhd(29): (vcom-1615) Existing architecture 'AddSub(structural)' at proj/src/TopLevel/Lower/AddSub.vhd(29) will be overwritten.
+-- Compiling architecture structural of AddSub
+-- Compiling entity Fetch_log
+-- Compiling architecture structural of Fetch_log
+End time: 13:42:38 on Dec 11,2022, Elapsed time: 0:00:01
+Errors: 0, Warnings: 10

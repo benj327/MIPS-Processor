@@ -1,0 +1,71 @@
+
+#
+# CprE 381 Generated Quartus Settings File
+#
+
+set_global_assignment -name FAMILY "Cyclone IV E"
+set_global_assignment -name DEVICE EP4CE115F29C7
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 21.1.1
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "19:07:08  JANUARY 28, 2019"
+set_global_assignment -name LAST_QUARTUS_VERSION "21.1.1 Standard Edition"
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name TOP_LEVEL_ENTITY MIPS_Processor
+set_global_assignment -name VHDL_INPUT_VERSION VHDL_2008
+set_global_assignment -name VHDL_FILE "/home/bj27/Desktop/p2/project-1/Toolflow/proj/src/MIPS_types.vhd"
+set_global_assignment -name VHDL_FILE "/home/bj27/Desktop/p2/project-1/Toolflow/proj/src/TopLevel/Lower/ALU.vhd"
+set_global_assignment -name VHDL_FILE "/home/bj27/Desktop/p2/project-1/Toolflow/proj/src/TopLevel/Lower/AddSub.vhd"
+set_global_assignment -name VHDL_FILE "/home/bj27/Desktop/p2/project-1/Toolflow/proj/src/TopLevel/Lower/Adder.vhd"
+set_global_assignment -name VHDL_FILE "/home/bj27/Desktop/p2/project-1/Toolflow/proj/src/TopLevel/Lower/AdderS.vhd"
+set_global_assignment -name VHDL_FILE "/home/bj27/Desktop/p2/project-1/Toolflow/proj/src/TopLevel/Lower/ComparatorUnit.vhd"
+set_global_assignment -name VHDL_FILE "/home/bj27/Desktop/p2/project-1/Toolflow/proj/src/TopLevel/Lower/Decoder5t32.vhd"
+set_global_assignment -name VHDL_FILE "/home/bj27/Desktop/p2/project-1/Toolflow/proj/src/TopLevel/Lower/Fetch Logic/AddSub.vhd"
+set_global_assignment -name VHDL_FILE "/home/bj27/Desktop/p2/project-1/Toolflow/proj/src/TopLevel/Lower/Fetch Logic/Fetch_log.vhd"
+set_global_assignment -name VHDL_FILE "/home/bj27/Desktop/p2/project-1/Toolflow/proj/src/TopLevel/Lower/Fetch Logic/PC_reg.vhd"
+set_global_assignment -name VHDL_FILE "/home/bj27/Desktop/p2/project-1/Toolflow/proj/src/TopLevel/Lower/Fetch Logic/mux2t1_N.vhd"
+set_global_assignment -name VHDL_FILE "/home/bj27/Desktop/p2/project-1/Toolflow/proj/src/TopLevel/Lower/Multiplier.vhd"
+set_global_assignment -name VHDL_FILE "/home/bj27/Desktop/p2/project-1/Toolflow/proj/src/TopLevel/Lower/NBitAdder.vhd"
+set_global_assignment -name VHDL_FILE "/home/bj27/Desktop/p2/project-1/Toolflow/proj/src/TopLevel/Lower/NReg.vhd"
+set_global_assignment -name VHDL_FILE "/home/bj27/Desktop/p2/project-1/Toolflow/proj/src/TopLevel/Lower/NRegF.vhd"
+set_global_assignment -name VHDL_FILE "/home/bj27/Desktop/p2/project-1/Toolflow/proj/src/TopLevel/Lower/NRegO.vhd"
+set_global_assignment -name VHDL_FILE "/home/bj27/Desktop/p2/project-1/Toolflow/proj/src/TopLevel/Lower/NRegT.vhd"
+set_global_assignment -name VHDL_FILE "/home/bj27/Desktop/p2/project-1/Toolflow/proj/src/TopLevel/Lower/OnesComp.vhd"
+set_global_assignment -name VHDL_FILE "/home/bj27/Desktop/p2/project-1/Toolflow/proj/src/TopLevel/Lower/Reg.vhd"
+set_global_assignment -name VHDL_FILE "/home/bj27/Desktop/p2/project-1/Toolflow/proj/src/TopLevel/Lower/RegLd.vhd"
+set_global_assignment -name VHDL_FILE "/home/bj27/Desktop/p2/project-1/Toolflow/proj/src/TopLevel/Lower/aluLogical.vhd"
+set_global_assignment -name VHDL_FILE "/home/bj27/Desktop/p2/project-1/Toolflow/proj/src/TopLevel/Lower/andg2.vhd"
+set_global_assignment -name VHDL_FILE "/home/bj27/Desktop/p2/project-1/Toolflow/proj/src/TopLevel/Lower/control.vhd"
+set_global_assignment -name VHDL_FILE "/home/bj27/Desktop/p2/project-1/Toolflow/proj/src/TopLevel/Lower/dffg.vhd"
+set_global_assignment -name VHDL_FILE "/home/bj27/Desktop/p2/project-1/Toolflow/proj/src/TopLevel/Lower/ex_memR.vhd"
+set_global_assignment -name VHDL_FILE "/home/bj27/Desktop/p2/project-1/Toolflow/proj/src/TopLevel/Lower/extender.vhd"
+set_global_assignment -name VHDL_FILE "/home/bj27/Desktop/p2/project-1/Toolflow/proj/src/TopLevel/Lower/id_exR.vhd"
+set_global_assignment -name VHDL_FILE "/home/bj27/Desktop/p2/project-1/Toolflow/proj/src/TopLevel/Lower/if_idR.vhd"
+set_global_assignment -name VHDL_FILE "/home/bj27/Desktop/p2/project-1/Toolflow/proj/src/TopLevel/Lower/invg.vhd"
+set_global_assignment -name VHDL_FILE "/home/bj27/Desktop/p2/project-1/Toolflow/proj/src/TopLevel/Lower/leftBarrelShifter.vhd"
+set_global_assignment -name VHDL_FILE "/home/bj27/Desktop/p2/project-1/Toolflow/proj/src/TopLevel/Lower/mem_wb.vhd"
+set_global_assignment -name VHDL_FILE "/home/bj27/Desktop/p2/project-1/Toolflow/proj/src/TopLevel/Lower/mipsDatapath.vhd"
+set_global_assignment -name VHDL_FILE "/home/bj27/Desktop/p2/project-1/Toolflow/proj/src/TopLevel/Lower/mipsDatapath2.vhd"
+set_global_assignment -name VHDL_FILE "/home/bj27/Desktop/p2/project-1/Toolflow/proj/src/TopLevel/Lower/mux2darr.vhd"
+set_global_assignment -name VHDL_FILE "/home/bj27/Desktop/p2/project-1/Toolflow/proj/src/TopLevel/Lower/mux2t1.vhd"
+set_global_assignment -name VHDL_FILE "/home/bj27/Desktop/p2/project-1/Toolflow/proj/src/TopLevel/Lower/mux2t1_N.vhd"
+set_global_assignment -name VHDL_FILE "/home/bj27/Desktop/p2/project-1/Toolflow/proj/src/TopLevel/Lower/mux2t1_df.vhd"
+set_global_assignment -name VHDL_FILE "/home/bj27/Desktop/p2/project-1/Toolflow/proj/src/TopLevel/Lower/mux32bit4t1.vhd"
+set_global_assignment -name VHDL_FILE "/home/bj27/Desktop/p2/project-1/Toolflow/proj/src/TopLevel/Lower/mux32t1.vhd"
+set_global_assignment -name VHDL_FILE "/home/bj27/Desktop/p2/project-1/Toolflow/proj/src/TopLevel/Lower/mux6bit4t1.vhd"
+set_global_assignment -name VHDL_FILE "/home/bj27/Desktop/p2/project-1/Toolflow/proj/src/TopLevel/Lower/org2.vhd"
+set_global_assignment -name VHDL_FILE "/home/bj27/Desktop/p2/project-1/Toolflow/proj/src/TopLevel/Lower/regFile.vhd"
+set_global_assignment -name VHDL_FILE "/home/bj27/Desktop/p2/project-1/Toolflow/proj/src/TopLevel/Lower/rightBarrelShifter.vhd"
+set_global_assignment -name VHDL_FILE "/home/bj27/Desktop/p2/project-1/Toolflow/proj/src/TopLevel/Lower/shiftL2.vhd"
+set_global_assignment -name VHDL_FILE "/home/bj27/Desktop/p2/project-1/Toolflow/proj/src/TopLevel/Lower/sltU.vhd"
+set_global_assignment -name VHDL_FILE "/home/bj27/Desktop/p2/project-1/Toolflow/proj/src/TopLevel/Lower/tb_ALU.vhd"
+set_global_assignment -name VHDL_FILE "/home/bj27/Desktop/p2/project-1/Toolflow/proj/src/TopLevel/Lower/tb_aluLogical.vhd"
+set_global_assignment -name VHDL_FILE "/home/bj27/Desktop/p2/project-1/Toolflow/proj/src/TopLevel/Lower/tb_control.vhd"
+set_global_assignment -name VHDL_FILE "/home/bj27/Desktop/p2/project-1/Toolflow/proj/src/TopLevel/Lower/tb_leftBarrelShifter.vhd"
+set_global_assignment -name VHDL_FILE "/home/bj27/Desktop/p2/project-1/Toolflow/proj/src/TopLevel/Lower/tb_mipsDatapath.vhd"
+set_global_assignment -name VHDL_FILE "/home/bj27/Desktop/p2/project-1/Toolflow/proj/src/TopLevel/Lower/tb_rightBarrelShifter.vhd"
+set_global_assignment -name VHDL_FILE "/home/bj27/Desktop/p2/project-1/Toolflow/proj/src/TopLevel/Lower/tb_shift2L.vhd"
+set_global_assignment -name VHDL_FILE "/home/bj27/Desktop/p2/project-1/Toolflow/proj/src/TopLevel/Lower/xorg2.vhd"
+set_global_assignment -name VHDL_FILE "/home/bj27/Desktop/p2/project-1/Toolflow/proj/src/TopLevel/MIPS_Processor.vhd"
+set_global_assignment -name VHDL_FILE "/home/bj27/Desktop/p2/project-1/Toolflow/proj/src/TopLevel/mem.vhd"

@@ -1,0 +1,37 @@
+[inst #1] addiu $2,$0,4
+Register Write to Reg: 0x02 Val: 0x00000004
+[inst #2] lui $1,4097
+Register Write to Reg: 0x01 Val: 0x10010000
+[inst #3] ori $4,$1,0
+Register Write to Reg: 0x04 Val: 0x10010000
+[inst #4] syscall 
+this test should print all jumps in order
+[inst #5] j 4194344
+[inst #6] addiu $2,$0,4
+Register Write to Reg: 0x02 Val: 0x00000004
+[inst #7] lui $1,4097
+Register Write to Reg: 0x01 Val: 0x10010000
+[inst #8] ori $4,$1,43
+Register Write to Reg: 0x04 Val: 0x1001002B
+[inst #9] syscall 
+jump 1 successful
+[inst #10] j 4194380
+[inst #11] addiu $2,$0,4
+Register Write to Reg: 0x02 Val: 0x00000004
+[inst #12] lui $1,4097
+Register Write to Reg: 0x01 Val: 0x10010000
+[inst #13] ori $4,$1,62
+Register Write to Reg: 0x04 Val: 0x1001003E
+[inst #14] syscall 
+jump 2 successful
+[inst #15] j 4194416
+[inst #16] addiu $2,$0,4
+Register Write to Reg: 0x02 Val: 0x00000004
+[inst #17] lui $1,4097
+Register Write to Reg: 0x01 Val: 0x10010000
+[inst #18] ori $4,$1,81
+Register Write to Reg: 0x04 Val: 0x10010051
+[inst #19] syscall 
+jump 3 successful
+[inst #20] halt 
+

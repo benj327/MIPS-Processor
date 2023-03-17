@@ -1,0 +1,64 @@
+[inst #1] repl.qb $1,0
+Register Write to Reg: 0x01 Val: 0x00000000
+[inst #2] repl.qb $2,0
+Register Write to Reg: 0x02 Val: 0x00000000
+[inst #3] repl.qb $3,0
+Register Write to Reg: 0x03 Val: 0x00000000
+[inst #4] repl.qb $4,0
+Register Write to Reg: 0x04 Val: 0x00000000
+[inst #5] repl.qb $5,0
+Register Write to Reg: 0x05 Val: 0x00000000
+[inst #6] repl.qb $6,0
+Register Write to Reg: 0x06 Val: 0x00000000
+[inst #7] repl.qb $7,0
+Register Write to Reg: 0x07 Val: 0x00000000
+[inst #8] repl.qb $8,0
+Register Write to Reg: 0x08 Val: 0x00000000
+[inst #9] repl.qb $9,0
+Register Write to Reg: 0x09 Val: 0x00000000
+[inst #10] repl.qb $10,0
+Register Write to Reg: 0x0A Val: 0x00000000
+[inst #11] repl.qb $11,0
+Register Write to Reg: 0x0B Val: 0x00000000
+[inst #12] repl.qb $12,0
+Register Write to Reg: 0x0C Val: 0x00000000
+[inst #13] repl.qb $13,0
+Register Write to Reg: 0x0D Val: 0x00000000
+[inst #14] repl.qb $14,0
+Register Write to Reg: 0x0E Val: 0x00000000
+[inst #15] repl.qb $15,0
+Register Write to Reg: 0x0F Val: 0x00000000
+[inst #16] repl.qb $16,0
+Register Write to Reg: 0x10 Val: 0x00000000
+[inst #17] repl.qb $17,0
+Register Write to Reg: 0x11 Val: 0x00000000
+[inst #18] repl.qb $18,0
+Register Write to Reg: 0x12 Val: 0x00000000
+[inst #19] repl.qb $19,0
+Register Write to Reg: 0x13 Val: 0x00000000
+[inst #20] repl.qb $20,0
+Register Write to Reg: 0x14 Val: 0x00000000
+[inst #21] repl.qb $21,0
+Register Write to Reg: 0x15 Val: 0x00000000
+[inst #22] repl.qb $22,0
+Register Write to Reg: 0x16 Val: 0x00000000
+[inst #23] repl.qb $23,0
+Register Write to Reg: 0x17 Val: 0x00000000
+[inst #24] repl.qb $24,0
+Register Write to Reg: 0x18 Val: 0x00000000
+[inst #25] repl.qb $25,0
+Register Write to Reg: 0x19 Val: 0x00000000
+[inst #26] repl.qb $26,0
+Register Write to Reg: 0x1A Val: 0x00000000
+[inst #27] repl.qb $27,0
+Register Write to Reg: 0x1B Val: 0x00000000
+[inst #28] repl.qb $28,0
+Register Write to Reg: 0x1C Val: 0x00000000
+[inst #29] repl.qb $29,0
+Register Write to Reg: 0x1D Val: 0x00000000
+[inst #30] repl.qb $30,0
+Register Write to Reg: 0x1E Val: 0x00000000
+[inst #31] repl.qb $31,0
+Register Write to Reg: 0x1F Val: 0x00000000
+[inst #32] halt 
+

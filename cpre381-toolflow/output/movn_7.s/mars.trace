@@ -1,0 +1,37 @@
+[inst #1] addi $30,$0,10
+Register Write to Reg: 0x1E Val: 0x0000000A
+[inst #2] addi $1,$0,5
+Register Write to Reg: 0x01 Val: 0x00000005
+[inst #3] movn $1,$30,$0
+[inst #4] movn $2,$30,$0
+[inst #5] movn $3,$30,$0
+[inst #6] movn $4,$30,$0
+[inst #7] movn $5,$30,$0
+[inst #8] movn $6,$30,$0
+[inst #9] movn $7,$30,$0
+[inst #10] movn $8,$30,$0
+[inst #11] movn $9,$30,$0
+[inst #12] movn $10,$30,$0
+[inst #13] movn $11,$30,$0
+[inst #14] movn $12,$30,$0
+[inst #15] movn $13,$30,$0
+[inst #16] movn $14,$30,$0
+[inst #17] movn $15,$30,$0
+[inst #18] movn $16,$30,$0
+[inst #19] movn $17,$30,$0
+[inst #20] movn $18,$30,$0
+[inst #21] movn $19,$30,$0
+[inst #22] movn $20,$30,$0
+[inst #23] movn $21,$30,$0
+[inst #24] movn $22,$30,$0
+[inst #25] movn $23,$30,$0
+[inst #26] movn $24,$30,$0
+[inst #27] movn $25,$30,$0
+[inst #28] movn $26,$30,$0
+[inst #29] movn $27,$30,$0
+[inst #30] movn $28,$30,$0
+[inst #31] movn $29,$30,$0
+[inst #32] movn $30,$1,$0
+[inst #33] movn $31,$1,$0
+[inst #34] halt 
+

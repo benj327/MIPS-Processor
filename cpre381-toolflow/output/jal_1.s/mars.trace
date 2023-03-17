@@ -1,0 +1,6 @@
+[inst #1] jal 4194316
+Register Write to Reg: 0x1F Val: 0x00400004
+[inst #2] jal 4194312
+Register Write to Reg: 0x1F Val: 0x00400010
+[inst #3] halt 
+

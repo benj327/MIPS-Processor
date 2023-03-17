@@ -1,0 +1,16 @@
+[inst #1] addi $4,$0,4369
+Register Write to Reg: 0x04 Val: 0x00001111
+[inst #2] andi $0,$0,4369
+Register Write to Reg: 0x00 Val: 0x00000000
+[inst #3] lui $1,4369
+Register Write to Reg: 0x01 Val: 0x11110000
+[inst #4] ori $1,$1,4369
+Register Write to Reg: 0x01 Val: 0x11111111
+[inst #5] and $9,$4,$1
+Register Write to Reg: 0x09 Val: 0x00001111
+[inst #6] andi $0,$0,0
+Register Write to Reg: 0x00 Val: 0x00000000
+[inst #7] andi $10,$4,16
+Register Write to Reg: 0x0A Val: 0x00000010
+[inst #8] halt 
+

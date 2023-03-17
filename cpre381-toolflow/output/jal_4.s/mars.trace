@@ -1,0 +1,23 @@
+[inst #1] jal 4194308
+Register Write to Reg: 0x1F Val: 0x00400004
+[inst #2] add $4,$0,$31
+Register Write to Reg: 0x04 Val: 0x00400004
+[inst #3] addiu $2,$0,1
+Register Write to Reg: 0x02 Val: 0x00000001
+[inst #4] syscall 
+4194308[inst #5] jal 4194324
+Register Write to Reg: 0x1F Val: 0x00400014
+[inst #6] add $4,$0,$31
+Register Write to Reg: 0x04 Val: 0x00400014
+[inst #7] addiu $2,$0,1
+Register Write to Reg: 0x02 Val: 0x00000001
+[inst #8] syscall 
+4194324[inst #9] jal 4194340
+Register Write to Reg: 0x1F Val: 0x00400024
+[inst #10] add $4,$0,$31
+Register Write to Reg: 0x04 Val: 0x00400024
+[inst #11] addiu $2,$0,1
+Register Write to Reg: 0x02 Val: 0x00000001
+[inst #12] syscall 
+4194340[inst #13] halt 
+

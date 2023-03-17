@@ -1,0 +1,6 @@
+[inst #1] addi $9,$9,15
+Register Write to Reg: 0x09 Val: 0x0000000F
+[inst #2] sll $9,$9,0
+Register Write to Reg: 0x09 Val: 0x0000000F
+[inst #3] halt 
+

@@ -1,0 +1,8 @@
+[inst #1] ori $9,$0,65535
+Register Write to Reg: 0x09 Val: 0x0000FFFF
+[inst #2] ori $10,$0,65530
+Register Write to Reg: 0x0A Val: 0x0000FFFA
+[inst #3] movn $9,$10,$0
+[inst #4] movn $10,$9,$0
+[inst #5] halt 
+

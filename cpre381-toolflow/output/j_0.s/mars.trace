@@ -1,0 +1,12 @@
+[inst #1] j 4194324
+[inst #2] addiu $2,$0,4
+Register Write to Reg: 0x02 Val: 0x00000004
+[inst #3] lui $1,4097
+Register Write to Reg: 0x01 Val: 0x10010000
+[inst #4] ori $4,$1,0
+Register Write to Reg: 0x04 Val: 0x10010000
+[inst #5] syscall 
+basic jump successful[inst #6] addiu $2,$0,10
+Register Write to Reg: 0x02 Val: 0x0000000A
+[inst #7] syscall 
+

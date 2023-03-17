@@ -1,0 +1,70 @@
+[inst #1] lui $1,-30875
+Register Write to Reg: 0x01 Val: 0x87650000
+[inst #2] ori $1,$1,17185
+Register Write to Reg: 0x01 Val: 0x87654321
+[inst #3] add $9,$0,$1
+Register Write to Reg: 0x09 Val: 0x87654321
+[inst #4] sra $9,$9,1
+Register Write to Reg: 0x09 Val: 0xC3B2A190
+[inst #5] sra $9,$9,1
+Register Write to Reg: 0x09 Val: 0xE1D950C8
+[inst #6] sra $9,$9,1
+Register Write to Reg: 0x09 Val: 0xF0ECA864
+[inst #7] sra $9,$9,1
+Register Write to Reg: 0x09 Val: 0xF8765432
+[inst #8] sra $9,$9,1
+Register Write to Reg: 0x09 Val: 0xFC3B2A19
+[inst #9] sra $9,$9,1
+Register Write to Reg: 0x09 Val: 0xFE1D950C
+[inst #10] sra $9,$9,1
+Register Write to Reg: 0x09 Val: 0xFF0ECA86
+[inst #11] sra $9,$9,1
+Register Write to Reg: 0x09 Val: 0xFF876543
+[inst #12] sra $9,$9,1
+Register Write to Reg: 0x09 Val: 0xFFC3B2A1
+[inst #13] sra $9,$9,1
+Register Write to Reg: 0x09 Val: 0xFFE1D950
+[inst #14] sra $9,$9,1
+Register Write to Reg: 0x09 Val: 0xFFF0ECA8
+[inst #15] sra $9,$9,1
+Register Write to Reg: 0x09 Val: 0xFFF87654
+[inst #16] sra $9,$9,1
+Register Write to Reg: 0x09 Val: 0xFFFC3B2A
+[inst #17] sra $9,$9,1
+Register Write to Reg: 0x09 Val: 0xFFFE1D95
+[inst #18] sra $9,$9,1
+Register Write to Reg: 0x09 Val: 0xFFFF0ECA
+[inst #19] srl $9,$9,1
+Register Write to Reg: 0x09 Val: 0x7FFF8765
+[inst #20] sra $9,$9,1
+Register Write to Reg: 0x09 Val: 0x3FFFC3B2
+[inst #21] sra $9,$9,1
+Register Write to Reg: 0x09 Val: 0x1FFFE1D9
+[inst #22] sra $9,$9,1
+Register Write to Reg: 0x09 Val: 0x0FFFF0EC
+[inst #23] sra $9,$9,1
+Register Write to Reg: 0x09 Val: 0x07FFF876
+[inst #24] sra $9,$9,1
+Register Write to Reg: 0x09 Val: 0x03FFFC3B
+[inst #25] sra $9,$9,1
+Register Write to Reg: 0x09 Val: 0x01FFFE1D
+[inst #26] sra $9,$9,1
+Register Write to Reg: 0x09 Val: 0x00FFFF0E
+[inst #27] sra $9,$9,1
+Register Write to Reg: 0x09 Val: 0x007FFF87
+[inst #28] sra $9,$9,1
+Register Write to Reg: 0x09 Val: 0x003FFFC3
+[inst #29] sra $9,$9,1
+Register Write to Reg: 0x09 Val: 0x001FFFE1
+[inst #30] sra $9,$9,1
+Register Write to Reg: 0x09 Val: 0x000FFFF0
+[inst #31] sra $9,$9,1
+Register Write to Reg: 0x09 Val: 0x0007FFF8
+[inst #32] sra $9,$9,1
+Register Write to Reg: 0x09 Val: 0x0003FFFC
+[inst #33] sra $9,$9,1
+Register Write to Reg: 0x09 Val: 0x0001FFFE
+[inst #34] sra $9,$9,1
+Register Write to Reg: 0x09 Val: 0x0000FFFF
+[inst #35] halt 
+

@@ -1,0 +1,72 @@
+[inst #1] addiu $31,$0,1
+Register Write to Reg: 0x1F Val: 0x00000001
+[inst #2] addiu $30,$0,10
+Register Write to Reg: 0x1E Val: 0x0000000A
+[inst #3] movn $1,$30,$31
+Register Write to Reg: 0x01 Val: 0x0000000A
+[inst #4] movn $2,$30,$31
+Register Write to Reg: 0x02 Val: 0x0000000A
+[inst #5] movn $3,$30,$31
+Register Write to Reg: 0x03 Val: 0x0000000A
+[inst #6] movn $4,$30,$31
+Register Write to Reg: 0x04 Val: 0x0000000A
+[inst #7] movn $5,$30,$31
+Register Write to Reg: 0x05 Val: 0x0000000A
+[inst #8] movn $6,$30,$31
+Register Write to Reg: 0x06 Val: 0x0000000A
+[inst #9] movn $7,$30,$31
+Register Write to Reg: 0x07 Val: 0x0000000A
+[inst #10] movn $8,$30,$31
+Register Write to Reg: 0x08 Val: 0x0000000A
+[inst #11] movn $9,$30,$31
+Register Write to Reg: 0x09 Val: 0x0000000A
+[inst #12] movn $10,$30,$31
+Register Write to Reg: 0x0A Val: 0x0000000A
+[inst #13] movn $11,$30,$31
+Register Write to Reg: 0x0B Val: 0x0000000A
+[inst #14] movn $12,$30,$31
+Register Write to Reg: 0x0C Val: 0x0000000A
+[inst #15] movn $13,$30,$31
+Register Write to Reg: 0x0D Val: 0x0000000A
+[inst #16] movn $14,$30,$31
+Register Write to Reg: 0x0E Val: 0x0000000A
+[inst #17] movn $15,$30,$31
+Register Write to Reg: 0x0F Val: 0x0000000A
+[inst #18] movn $16,$30,$31
+Register Write to Reg: 0x10 Val: 0x0000000A
+[inst #19] movn $17,$30,$31
+Register Write to Reg: 0x11 Val: 0x0000000A
+[inst #20] movn $18,$30,$31
+Register Write to Reg: 0x12 Val: 0x0000000A
+[inst #21] movn $19,$30,$31
+Register Write to Reg: 0x13 Val: 0x0000000A
+[inst #22] movn $20,$30,$31
+Register Write to Reg: 0x14 Val: 0x0000000A
+[inst #23] movn $21,$30,$31
+Register Write to Reg: 0x15 Val: 0x0000000A
+[inst #24] movn $22,$30,$31
+Register Write to Reg: 0x16 Val: 0x0000000A
+[inst #25] movn $23,$30,$31
+Register Write to Reg: 0x17 Val: 0x0000000A
+[inst #26] movn $24,$30,$31
+Register Write to Reg: 0x18 Val: 0x0000000A
+[inst #27] movn $25,$30,$31
+Register Write to Reg: 0x19 Val: 0x0000000A
+[inst #28] movn $26,$30,$31
+Register Write to Reg: 0x1A Val: 0x0000000A
+[inst #29] movn $27,$30,$31
+Register Write to Reg: 0x1B Val: 0x0000000A
+[inst #30] movn $28,$30,$31
+Register Write to Reg: 0x1C Val: 0x0000000A
+[inst #31] movn $29,$30,$31
+Register Write to Reg: 0x1D Val: 0x0000000A
+[inst #32] addiu $1,$0,1
+Register Write to Reg: 0x01 Val: 0x00000001
+[inst #33] addiu $2,$0,10
+Register Write to Reg: 0x02 Val: 0x0000000A
+[inst #34] movn $30,$1,$2
+Register Write to Reg: 0x1E Val: 0x00000001
+[inst #35] movn $31,$1,$2
+Register Write to Reg: 0x1F Val: 0x00000001
+[inst #36] halt 
+

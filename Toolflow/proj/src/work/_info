@@ -1,0 +1,117 @@
+m255
+K4
+z2
+!s11e vcom 2022.2 2022.04, Apr 25 2022
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/bj27/Desktop/project2tests/project-1/cpre381Proj2-toolflow/proj/src
+Emips_processor
+Z0 w1670623867
+Z1 DPx4 work 10 mips_types 0 22 hZBUW]HhDM2h1hJhif=>>3
+Z2 DPx3 std 6 textio 0 22 LS[?81n5ZHWBI9JkBZTV<2
+Z3 DPx4 ieee 14 std_logic_1164 0 22 6<US`=mgl_dFdCEFF7J=m1
+!i122 2
+Z4 d/home/bj27/Desktop/p2test/cpre381-toolflow/proj/src
+Z5 8/home/bj27/Desktop/p2test/cpre381-toolflow/proj/src/TopLevel/MIPS_Processor.vhd
+Z6 F/home/bj27/Desktop/p2test/cpre381-toolflow/proj/src/TopLevel/MIPS_Processor.vhd
+l0
+L23 1
+V?2Ue4BWL?G_8]`lN5U>AW1
+!s100 lCRi]V>h[1VjnjUP_8`>K1
+Z7 OL;C;2022.2;75
+32
+Z8 !s110 1670626086
+!i10b 1
+Z9 !s108 1670626086.000000
+Z10 !s90 -reportprogress|300|-work|work|/home/bj27/Desktop/p2test/cpre381-toolflow/proj/src/TopLevel/MIPS_Processor.vhd|
+!s107 /home/bj27/Desktop/p2test/cpre381-toolflow/proj/src/TopLevel/MIPS_Processor.vhd|
+!i113 0
+Z11 o-work work
+Z12 tExplicit 1 CvgOpt 0
+Astructure
+R1
+R2
+R3
+DEx4 work 14 mips_processor 0 22 ?2Ue4BWL?G_8]`lN5U>AW1
+!i122 2
+l341
+L35 602
+V;NbYZ]zRXS2=gbzIT9o8d2
+!s100 QMcn?[mWSM__l>3=i`1m21
+R7
+32
+R8
+!i10b 1
+R9
+R10
+Z13 !s107 /home/bj27/Desktop/p2test/cpre381-toolflow/proj/src/TopLevel/MIPS_Processor.vhd|
+!i113 0
+R11
+R12
+Pmips_types
+R2
+R3
+!i122 1
+Z14 w1670541279
+R4
+Z15 8/home/bj27/Desktop/p2test/cpre381-toolflow/proj/src/MIPS_types.vhd
+Z16 F/home/bj27/Desktop/p2test/cpre381-toolflow/proj/src/MIPS_types.vhd
+l0
+L15 13
+VhZBUW]HhDM2h1hJhif=>>3
+!s100 Zhic[8Ck_NUcnioRmZLWb2
+R7
+32
+Z17 !s110 1670626081
+!i10b 1
+Z18 !s108 1670626081.000000
+Z19 !s90 -reportprogress|300|-work|work|/home/bj27/Desktop/p2test/cpre381-toolflow/proj/src/MIPS_types.vhd|
+Z20 !s107 /home/bj27/Desktop/p2test/cpre381-toolflow/proj/src/MIPS_types.vhd|
+!i113 0
+R11
+R12
+Bbody
+R1
+R2
+R3
+!i122 1
+l0
+L29 3
+V9iY8fCz4eYFUlAcKE=Z0C0
+!s100 ;m9aHiUa@zM37M9gRzA3:0
+R7
+32
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 0
+R11
+R12
+Pmux2darr
+R2
+R3
+!i122 1
+R14
+R4
+R15
+R16
+l0
+L35 4
+Vzbz>Vg^coTH:7Jh63`?Y63
+!s100 k>4>bQG;?nESIn;fIHC;73
+R7
+32
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 0
+R11
+R12

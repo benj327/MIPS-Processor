@@ -1,0 +1,68 @@
+[inst #1] addi $9,$0,1
+Register Write to Reg: 0x09 Val: 0x00000001
+[inst #2] sll $10,$9,0
+Register Write to Reg: 0x0A Val: 0x00000001
+[inst #3] sll $11,$9,1
+Register Write to Reg: 0x0B Val: 0x00000002
+[inst #4] sll $12,$9,2
+Register Write to Reg: 0x0C Val: 0x00000004
+[inst #5] sll $13,$9,3
+Register Write to Reg: 0x0D Val: 0x00000008
+[inst #6] sll $14,$9,4
+Register Write to Reg: 0x0E Val: 0x00000010
+[inst #7] sll $15,$9,5
+Register Write to Reg: 0x0F Val: 0x00000020
+[inst #8] sll $10,$9,6
+Register Write to Reg: 0x0A Val: 0x00000040
+[inst #9] sll $11,$9,7
+Register Write to Reg: 0x0B Val: 0x00000080
+[inst #10] sll $12,$9,8
+Register Write to Reg: 0x0C Val: 0x00000100
+[inst #11] sll $13,$9,9
+Register Write to Reg: 0x0D Val: 0x00000200
+[inst #12] sll $14,$9,10
+Register Write to Reg: 0x0E Val: 0x00000400
+[inst #13] sll $15,$9,11
+Register Write to Reg: 0x0F Val: 0x00000800
+[inst #14] sll $10,$9,12
+Register Write to Reg: 0x0A Val: 0x00001000
+[inst #15] sll $11,$9,13
+Register Write to Reg: 0x0B Val: 0x00002000
+[inst #16] sll $12,$9,14
+Register Write to Reg: 0x0C Val: 0x00004000
+[inst #17] sll $13,$9,15
+Register Write to Reg: 0x0D Val: 0x00008000
+[inst #18] sll $14,$9,16
+Register Write to Reg: 0x0E Val: 0x00010000
+[inst #19] sll $15,$9,17
+Register Write to Reg: 0x0F Val: 0x00020000
+[inst #20] sll $10,$9,18
+Register Write to Reg: 0x0A Val: 0x00040000
+[inst #21] sll $11,$9,19
+Register Write to Reg: 0x0B Val: 0x00080000
+[inst #22] sll $12,$9,20
+Register Write to Reg: 0x0C Val: 0x00100000
+[inst #23] sll $13,$9,21
+Register Write to Reg: 0x0D Val: 0x00200000
+[inst #24] sll $14,$9,22
+Register Write to Reg: 0x0E Val: 0x00400000
+[inst #25] sll $15,$9,23
+Register Write to Reg: 0x0F Val: 0x00800000
+[inst #26] sll $10,$9,24
+Register Write to Reg: 0x0A Val: 0x01000000
+[inst #27] sll $11,$9,25
+Register Write to Reg: 0x0B Val: 0x02000000
+[inst #28] sll $12,$9,26
+Register Write to Reg: 0x0C Val: 0x04000000
+[inst #29] sll $13,$9,27
+Register Write to Reg: 0x0D Val: 0x08000000
+[inst #30] sll $14,$9,28
+Register Write to Reg: 0x0E Val: 0x10000000
+[inst #31] sll $15,$9,29
+Register Write to Reg: 0x0F Val: 0x20000000
+[inst #32] sll $10,$9,30
+Register Write to Reg: 0x0A Val: 0x40000000
+[inst #33] sll $11,$9,31
+Register Write to Reg: 0x0B Val: 0x80000000
+[inst #34] halt 
+

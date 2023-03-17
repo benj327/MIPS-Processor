@@ -1,0 +1,68 @@
+[inst #1] addi $1,$0,-31
+Register Write to Reg: 0x01 Val: 0xFFFFFFE1
+[inst #2] addi $2,$0,-1
+Register Write to Reg: 0x02 Val: 0xFFFFFFFF
+[inst #3] sub $1,$1,$2
+Register Write to Reg: 0x01 Val: 0xFFFFFFE2
+[inst #4] sub $1,$1,$2
+Register Write to Reg: 0x01 Val: 0xFFFFFFE3
+[inst #5] sub $1,$1,$2
+Register Write to Reg: 0x01 Val: 0xFFFFFFE4
+[inst #6] sub $1,$1,$2
+Register Write to Reg: 0x01 Val: 0xFFFFFFE5
+[inst #7] sub $1,$1,$2
+Register Write to Reg: 0x01 Val: 0xFFFFFFE6
+[inst #8] sub $1,$1,$2
+Register Write to Reg: 0x01 Val: 0xFFFFFFE7
+[inst #9] sub $1,$1,$2
+Register Write to Reg: 0x01 Val: 0xFFFFFFE8
+[inst #10] sub $1,$1,$2
+Register Write to Reg: 0x01 Val: 0xFFFFFFE9
+[inst #11] sub $1,$1,$2
+Register Write to Reg: 0x01 Val: 0xFFFFFFEA
+[inst #12] sub $1,$1,$2
+Register Write to Reg: 0x01 Val: 0xFFFFFFEB
+[inst #13] sub $1,$1,$2
+Register Write to Reg: 0x01 Val: 0xFFFFFFEC
+[inst #14] sub $1,$1,$2
+Register Write to Reg: 0x01 Val: 0xFFFFFFED
+[inst #15] sub $1,$1,$2
+Register Write to Reg: 0x01 Val: 0xFFFFFFEE
+[inst #16] sub $1,$1,$2
+Register Write to Reg: 0x01 Val: 0xFFFFFFEF
+[inst #17] sub $1,$1,$2
+Register Write to Reg: 0x01 Val: 0xFFFFFFF0
+[inst #18] sub $1,$1,$2
+Register Write to Reg: 0x01 Val: 0xFFFFFFF1
+[inst #19] sub $1,$1,$2
+Register Write to Reg: 0x01 Val: 0xFFFFFFF2
+[inst #20] sub $1,$1,$2
+Register Write to Reg: 0x01 Val: 0xFFFFFFF3
+[inst #21] sub $1,$1,$2
+Register Write to Reg: 0x01 Val: 0xFFFFFFF4
+[inst #22] sub $1,$1,$2
+Register Write to Reg: 0x01 Val: 0xFFFFFFF5
+[inst #23] sub $1,$1,$2
+Register Write to Reg: 0x01 Val: 0xFFFFFFF6
+[inst #24] sub $1,$1,$2
+Register Write to Reg: 0x01 Val: 0xFFFFFFF7
+[inst #25] sub $1,$1,$2
+Register Write to Reg: 0x01 Val: 0xFFFFFFF8
+[inst #26] sub $1,$1,$2
+Register Write to Reg: 0x01 Val: 0xFFFFFFF9
+[inst #27] sub $1,$1,$2
+Register Write to Reg: 0x01 Val: 0xFFFFFFFA
+[inst #28] sub $1,$1,$2
+Register Write to Reg: 0x01 Val: 0xFFFFFFFB
+[inst #29] sub $1,$1,$2
+Register Write to Reg: 0x01 Val: 0xFFFFFFFC
+[inst #30] sub $1,$1,$2
+Register Write to Reg: 0x01 Val: 0xFFFFFFFD
+[inst #31] sub $1,$1,$2
+Register Write to Reg: 0x01 Val: 0xFFFFFFFE
+[inst #32] sub $1,$1,$2
+Register Write to Reg: 0x01 Val: 0xFFFFFFFF
+[inst #33] sub $1,$1,$2
+Register Write to Reg: 0x01 Val: 0x00000000
+[inst #34] halt 
+

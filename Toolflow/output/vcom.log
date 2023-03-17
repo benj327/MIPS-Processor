@@ -1,0 +1,25 @@
+QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+Start time: 14:03:10 on Dec 11,2022
+vcom -2008 -work internal/ModelSimContainer/work proj/src/MIPS_types.vhd internal/testpy/tb.vhd proj/src/MIPS_types.vhd proj/src/TopLevel/MIPS_Processor.vhd proj/src/TopLevel/mem.vhd proj/src/TopLevel/Lower/mux32bit4t1.vhd proj/src/TopLevel/Lower/Multiplier.vhd proj/src/TopLevel/Lower/tb_aluLogical.vhd proj/src/TopLevel/Lower/Decoder5t32.vhd proj/src/TopLevel/Lower/mipsDatapath.vhd proj/src/TopLevel/Lower/AddSub.vhd proj/src/TopLevel/Lower/invg.vhd proj/src/TopLevel/Lower/mux32t1.vhd proj/src/TopLevel/Lower/mux2t1.vhd proj/src/TopLevel/Lower/aluLogical.vhd proj/src/TopLevel/Lower/xorg2.vhd proj/src/TopLevel/Lower/Reg.vhd proj/src/TopLevel/Lower/mux2t1_df.vhd proj/src/TopLevel/Lower/mux2t1_N.vhd proj/src/TopLevel/Lower/id_exR.vhd proj/src/TopLevel/Lower/sltU.vhd proj/src/TopLevel/Lower/NRegO.vhd proj/src/TopLevel/Lower/regFile.vhd proj/src/TopLevel/Lower/rightBarrelShifter.vhd proj/src/TopLevel/Lower/NRegF.vhd proj/src/TopLevel/Lower/AdderS.vhd proj/src/TopLevel/Lower/shiftL2.vhd proj/src/TopLevel/Lower/NRegT.vhd proj/src/TopLevel/Lower/mux2darr.vhd proj/src/TopLevel/Lower/ex_memR.vhd proj/src/TopLevel/Lower/control.vhd proj/src/TopLevel/Lower/ComparatorUnit.vhd proj/src/TopLevel/Lower/NBitAdder.vhd proj/src/TopLevel/Lower/mux6bit4t1.vhd proj/src/TopLevel/Lower/tb_ALU.vhd proj/src/TopLevel/Lower/NReg.vhd proj/src/TopLevel/Lower/tb_shift2L.vhd proj/src/TopLevel/Lower/Adder.vhd proj/src/TopLevel/Lower/mem_wb.vhd proj/src/TopLevel/Lower/RegLd.vhd proj/src/TopLevel/Lower/mipsDatapath2.vhd proj/src/TopLevel/Lower/OnesComp.vhd proj/src/TopLevel/Lower/org2.vhd proj/src/TopLevel/Lower/dffg.vhd proj/src/TopLevel/Lower/extender.vhd proj/src/TopLevel/Lower/andg2.vhd proj/src/TopLevel/Lower/tb_mipsDatapath.vhd proj/src/TopLevel/Lower/tb_control.vhd proj/src/TopLevel/Lower/tb_rightBarrelShifter.vhd proj/src/TopLevel/Lower/tb_leftBarrelShifter.vhd proj/src/TopLevel/Lower/ALU.vhd proj/src/TopLevel/Lower/if_idR.vhd proj/src/TopLevel/Lower/leftBarrelShifter.vhd proj/src/TopLevel/Lower/Fetch Logic/mux2t1_N.vhd proj/src/TopLevel/Lower/Fetch Logic/PC_reg.vhd proj/src/TopLevel/Lower/Fetch Logic/AddSub.vhd proj/src/TopLevel/Lower/Fetch Logic/Fetch_log.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling package MIPS_types
+-- Compiling package body MIPS_types
+-- Loading package MIPS_types
+-- Loading package std_logic_textio
+-- Loading package ENV
+-- Compiling entity tb
+-- Compiling architecture mixed of tb
+** Warning: proj/src/MIPS_types.vhd(15): (vcom-1615) Existing package 'MIPS_types' at line 15 will be overwritten.
+-- Compiling package MIPS_types
+** Warning: proj/src/MIPS_types.vhd(29): (vcom-1615) Existing package body 'MIPS_types(body)' at line 29 will be overwritten.
+-- Compiling package body MIPS_types
+-- Loading package MIPS_types
+-- Loading package MIPS_types
+-- Compiling entity MIPS_Processor
+-- Compiling architecture structure of MIPS_Processor
+** Error: proj/src/TopLevel/MIPS_Processor.vhd(534): Integer literal 0 is not of type ieee.std_logic_1164.STD_LOGIC.
+** Note: proj/src/TopLevel/MIPS_Processor.vhd(672): VHDL Compiler exiting
+End time: 14:03:10 on Dec 11,2022, Elapsed time: 0:00:00
+Errors: 1, Warnings: 2

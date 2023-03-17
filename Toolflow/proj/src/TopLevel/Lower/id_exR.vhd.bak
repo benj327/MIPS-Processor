@@ -1,0 +1,234 @@
+library IEEE;
+use IEEE.std_logic_1164.all;
+
+entity id_exR is 
+    port(
+        i_RS : in std_logic;
+        i_CLK: in std_logic;
+        i_aluSRC : in std_logic;
+        i_PC : in std_logic_vector(31 downto 0);
+        i_addBr : in std_logic_vector(31 downto 0);
+        i_imme : in std_logic_vector(31 downto 0);
+        i_aluOp : in std_logic_vector(8 downto 0);
+        i_regDst : in std_logic_vector(4 downto 0);
+        i_jumpAddr : in std_logic_vector(31 downto 0);
+        i_dataMux : in std_logic;
+        i_branchE : in std_logic;
+        i_jump : in std_logic;
+        i_memToReg: in std_logic;
+        i_regWrite: in std_logic;
+        i_Jr : in std_logic;
+        i_move : in std_logic;
+        i_A : in std_logic_vector(31 downto 0);
+        i_B : in std_logic_vector(31 downto 0);
+        i_IM : in std_logic_vector(31 downto 0);
+        o_IM : in std_logic_vector(31 downto 0);
+        o_A : out std_logic_vector(31 downto 0);
+        o_addBr : out std_logic_vector(31 downto 0);
+        o_B : out std_logic_vector(31 downto 0);
+        o_imme : out std_logic_vector(31 downto 0);
+        o_PC : out std_logic_vector(31 downto 0);
+        o_aluSrc : out std_logic;
+        o_aluOp : out std_logic_vector(8 downto 0);
+        o_branchE : out std_logic;
+        o_jump : out std_logic;
+        o_memToReg: out std_logic;
+        o_dataMux : out std_logic;
+        o_regWrite: out std_logic;
+        o_Jr : out std_logic;
+        o_move : out std_logic;
+        o_regDst : out std_logic_vector(4 downto 0);
+        o_jumpAddr : out std_logic_vector(31 downto 0)
+    );
+end entity id_exR;
+
+architecture structure of id_exR is
+
+    component NRegO
+    port(i_CLKa        : in std_logic;     -- Clock input
+        i_RS        : in std_logic;     -- Reset input
+        i_E         : in std_logic;     -- Write enable input
+        i_Di         : in std_logic;     -- Data value input
+        o_Do          : out std_logic
+    );
+    end component;
+
+    component Reg
+    port(iCLK             : in std_logic;
+         iD               : in std_logic;
+         oQ               : out std_logic);
+    end component;
+    
+
+    component NReg
+    port(
+        i_CLKa        : in std_logic;     -- Clock input
+        i_RS        : in std_logic;     -- Reset input
+        i_E         : in std_logic;     -- Write enable input
+        i_Di         : in std_logic_vector(31 downto 0);     -- Data value input
+        o_Do          : out std_logic_vector(31 downto 0) 
+    );
+    end component;
+
+    component NRegT 
+    port(
+       i_CLKa        : in std_logic;     -- Clock input
+       i_RS        : in std_logic;     -- Reset input
+       i_E         : in std_logic;     -- Write enable input
+       i_Di         : in std_logic_vector(8 downto 0);     -- Data value input
+       o_Do          : out std_logic_vector(8 downto 0)   -- Data value output
+    );
+    end component;
+   
+    component NRegF
+    port(
+       i_CLKa        : in std_logic;     -- Clock input
+       i_RS        : in std_logic;     -- Reset input
+       i_E         : in std_logic;     -- Write enable input
+       i_Di         : in std_logic_vector(4 downto 0);     -- Data value input
+       o_Do          : out std_logic_vector(4 downto 0)   -- Data value output
+    );
+    end component;
+
+    begin
+    alu_src: NRegO
+    port map(
+        i_CLKa => i_CLK,
+        i_RS => i_RS,
+        i_E => '1',
+        i_Di => i_aluSRC,
+        o_Do => o_aluSrc
+    );
+
+    dataMux: NRegO
+    port map(
+        i_CLKa => i_CLK,
+        i_RS => i_RS,
+        i_E => '1',
+        i_Di => i_dataMux,
+        o_Do => o_dataMux
+    );
+
+    pc_reg: NReg
+    port map(
+        i_CLKa => i_CLK,
+        i_RS => i_RS,
+        i_E => '1',
+        i_Di => i_PC,
+        o_Do => o_PC
+    );
+    add_Br : NReg
+    port map(
+        i_CLKa => i_CLK,
+        i_RS => i_RS,
+        i_E => '1',
+        i_Di => i_addBr,
+        o_Do => o_addBr
+    );
+    immeR : NReg
+    port map(
+        i_CLKa => i_CLK,
+        i_RS => i_RS,
+        i_E => '1',
+        i_Di => i_imme,
+        o_Do => o_imme
+    );
+    branchER: NRegO
+    port map(
+        i_CLKa => i_CLK,
+        i_RS => i_RS,
+        i_E => '1',
+        i_Di => i_branchE,
+        o_Do => o_branchE
+    );
+    jumpR: NRegO 
+    port map(
+        i_CLKa => i_CLK,
+        i_RS => i_RS,
+        i_E => '1',
+        i_Di => i_jump,
+        o_Do => o_jump
+    );
+    memToRegR: NRegO
+    port map(
+        i_CLKa => i_CLK,
+        i_RS => i_RS,
+        i_E => '1',
+        i_Di => i_memToReg,
+        o_Do => o_memToReg
+    );
+    regWriteR: NRegO
+    port map(
+        i_CLKa => i_CLK,
+        i_RS => i_RS,
+        i_E => '1',
+        i_Di => i_regWrite,
+        o_Do => o_regWrite
+    );
+    JrR: NRegO 
+    port map(
+        i_CLKa => i_CLK,
+        i_RS => i_RS,
+        i_E => '1',
+        i_Di => i_Jr,
+        o_Do => o_Jr
+    );
+    moveR: NRegO 
+    port map(
+        i_CLKa => i_CLK,
+        i_RS => i_RS,
+        i_E => '1',
+        i_Di => i_move,
+        o_Do => o_move
+    );
+    moveDataR: NReg
+    port map(
+        i_CLKa => i_CLK,
+        i_RS => i_RS,
+        i_E => '1',
+        i_Di => i_moveV,
+        o_Do => o_moveV
+    );
+    aR: NReg
+    port map(
+        i_CLKa => i_CLK,
+        i_RS => i_RS,
+        i_E => '1',
+        i_Di => i_A,
+        o_Do => o_A
+    );
+    bR: NReg
+    port map(
+        i_CLKa => i_CLK,
+        i_RS => i_RS,
+        i_E => '1',
+        i_Di => i_B,
+        o_Do => o_B
+    );
+    aluOpReg: NRegT
+    port map(
+        i_CLKa => i_CLK,
+        i_RS => i_RS,
+        i_E => '1',
+        i_Di => i_aluOp,
+        o_Do => o_aluOp
+    );
+    regDstR: NRegF
+    port map(
+        i_CLKa => i_CLK,
+        i_RS => i_RS,
+        i_E => '1',
+        i_Di => i_regDst,
+        o_Do => o_regDst
+    );
+    jumpAddrR: NReg
+    port map(
+        i_CLKa => i_CLK,
+        i_RS => i_RS,
+        i_E => '1',
+        i_Di => i_jumpAddr,
+        o_Do => o_jumpAddr
+    );
+
+
+end structure;

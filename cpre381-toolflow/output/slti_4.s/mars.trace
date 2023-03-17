@@ -1,0 +1,6 @@
+[inst #1] addi $8,$8,2
+Register Write to Reg: 0x08 Val: 0x00000002
+[inst #2] slti $8,$8,1
+Register Write to Reg: 0x08 Val: 0x00000000
+[inst #3] halt 
+

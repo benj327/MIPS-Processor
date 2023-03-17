@@ -1,0 +1,170 @@
+[inst #1] NOP 
+[inst #2] ori $9,$0,4
+Register Write to Reg: 0x09 Val: 0x00000004
+[inst #3] NOP 
+[inst #4] NOP 
+[inst #5] NOP 
+[inst #6] NOP 
+[inst #7] NOP 
+[inst #8] addi $5,$9,-1
+Register Write to Reg: 0x05 Val: 0x00000003
+[inst #9] NOP 
+[inst #10] NOP 
+[inst #11] NOP 
+[inst #12] slt $1,$5,$0
+Register Write to Reg: 0x01 Val: 0x00000000
+[inst #13] NOP 
+[inst #14] NOP 
+[inst #15] NOP 
+[inst #16] bne $1,$0,53
+[inst #17] NOP 
+[inst #18] NOP 
+[inst #19] lui $4,4097
+Register Write to Reg: 0x04 Val: 0x10010000
+[inst #20] ori $10,$0,0
+Register Write to Reg: 0x0A Val: 0x00000000
+[inst #21] jal 4194420
+Register Write to Reg: 0x1F Val: 0x00400054
+[inst #22] NOP 
+[inst #23] NOP 
+[inst #24] lw $17,0($4)
+Register Write to Reg: 0x11 Val: 0x00000001
+[inst #25] NOP 
+[inst #26] NOP 
+[inst #27] lw $18,4($4)
+Register Write to Reg: 0x12 Val: 0x00000002
+[inst #28] NOP 
+[inst #29] NOP 
+[inst #30] NOP 
+[inst #31] slt $1,$17,$18
+Register Write to Reg: 0x01 Val: 0x00000001
+[inst #32] NOP 
+[inst #33] NOP 
+[inst #34] NOP 
+[inst #35] beq $1,$0,20
+[inst #36] NOP 
+[inst #37] NOP 
+[inst #38] addiu $4,$4,4
+Register Write to Reg: 0x04 Val: 0x10010004
+[inst #39] addiu $5,$5,-1
+Register Write to Reg: 0x05 Val: 0x00000002
+[inst #40] NOP 
+[inst #41] NOP 
+[inst #42] NOP 
+[inst #43] slt $1,$5,$0
+Register Write to Reg: 0x01 Val: 0x00000000
+[inst #44] NOP 
+[inst #45] NOP 
+[inst #46] NOP 
+[inst #47] beq $1,$0,-26
+[inst #48] NOP 
+[inst #49] NOP 
+[inst #50] lw $17,0($4)
+Register Write to Reg: 0x11 Val: 0x00000002
+[inst #51] NOP 
+[inst #52] NOP 
+[inst #53] lw $18,4($4)
+Register Write to Reg: 0x12 Val: 0x00000003
+[inst #54] NOP 
+[inst #55] NOP 
+[inst #56] NOP 
+[inst #57] slt $1,$17,$18
+Register Write to Reg: 0x01 Val: 0x00000001
+[inst #58] NOP 
+[inst #59] NOP 
+[inst #60] NOP 
+[inst #61] beq $1,$0,20
+[inst #62] NOP 
+[inst #63] NOP 
+[inst #64] addiu $4,$4,4
+Register Write to Reg: 0x04 Val: 0x10010008
+[inst #65] addiu $5,$5,-1
+Register Write to Reg: 0x05 Val: 0x00000001
+[inst #66] NOP 
+[inst #67] NOP 
+[inst #68] NOP 
+[inst #69] slt $1,$5,$0
+Register Write to Reg: 0x01 Val: 0x00000000
+[inst #70] NOP 
+[inst #71] NOP 
+[inst #72] NOP 
+[inst #73] beq $1,$0,-26
+[inst #74] NOP 
+[inst #75] NOP 
+[inst #76] lw $17,0($4)
+Register Write to Reg: 0x11 Val: 0x00000003
+[inst #77] NOP 
+[inst #78] NOP 
+[inst #79] lw $18,4($4)
+Register Write to Reg: 0x12 Val: 0x00000004
+[inst #80] NOP 
+[inst #81] NOP 
+[inst #82] NOP 
+[inst #83] slt $1,$17,$18
+Register Write to Reg: 0x01 Val: 0x00000001
+[inst #84] NOP 
+[inst #85] NOP 
+[inst #86] NOP 
+[inst #87] beq $1,$0,20
+[inst #88] NOP 
+[inst #89] NOP 
+[inst #90] addiu $4,$4,4
+Register Write to Reg: 0x04 Val: 0x1001000C
+[inst #91] addiu $5,$5,-1
+Register Write to Reg: 0x05 Val: 0x00000000
+[inst #92] NOP 
+[inst #93] NOP 
+[inst #94] NOP 
+[inst #95] slt $1,$5,$0
+Register Write to Reg: 0x01 Val: 0x00000000
+[inst #96] NOP 
+[inst #97] NOP 
+[inst #98] NOP 
+[inst #99] beq $1,$0,-26
+[inst #100] NOP 
+[inst #101] NOP 
+[inst #102] lw $17,0($4)
+Register Write to Reg: 0x11 Val: 0x00000004
+[inst #103] NOP 
+[inst #104] NOP 
+[inst #105] lw $18,4($4)
+Register Write to Reg: 0x12 Val: 0x00000005
+[inst #106] NOP 
+[inst #107] NOP 
+[inst #108] NOP 
+[inst #109] slt $1,$17,$18
+Register Write to Reg: 0x01 Val: 0x00000001
+[inst #110] NOP 
+[inst #111] NOP 
+[inst #112] NOP 
+[inst #113] beq $1,$0,20
+[inst #114] NOP 
+[inst #115] NOP 
+[inst #116] addiu $4,$4,4
+Register Write to Reg: 0x04 Val: 0x10010010
+[inst #117] addiu $5,$5,-1
+Register Write to Reg: 0x05 Val: 0xFFFFFFFF
+[inst #118] NOP 
+[inst #119] NOP 
+[inst #120] NOP 
+[inst #121] slt $1,$5,$0
+Register Write to Reg: 0x01 Val: 0x00000001
+[inst #122] NOP 
+[inst #123] NOP 
+[inst #124] NOP 
+[inst #125] beq $1,$0,-26
+[inst #126] NOP 
+[inst #127] NOP 
+[inst #128] addi $9,$9,-1
+Register Write to Reg: 0x09 Val: 0x00000003
+[inst #129] NOP 
+[inst #130] NOP 
+[inst #131] jr $31
+[inst #132] NOP 
+[inst #133] NOP 
+[inst #134] beq $0,$10,45
+[inst #135] NOP 
+[inst #136] NOP 
+[inst #137] j 4194600
+[inst #138] halt 
+

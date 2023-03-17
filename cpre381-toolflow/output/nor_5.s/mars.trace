@@ -1,0 +1,14 @@
+[inst #1] nor $1,$1,$0
+Register Write to Reg: 0x01 Val: 0xFFFFFFFF
+[inst #2] nor $1,$2,$0
+Register Write to Reg: 0x01 Val: 0xFFFFFFFF
+[inst #3] nor $1,$3,$0
+Register Write to Reg: 0x01 Val: 0xFFFFFFFF
+[inst #4] nor $1,$4,$0
+Register Write to Reg: 0x01 Val: 0xFFFFFFFF
+[inst #5] nor $1,$5,$0
+Register Write to Reg: 0x01 Val: 0xFFFFFFFF
+[inst #6] nor $1,$6,$0
+Register Write to Reg: 0x01 Val: 0xFFFFFFFF
+[inst #7] halt 
+
